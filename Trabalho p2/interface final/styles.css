@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+    font-family: "Libre Caslon Text", serif;
+    background-color: black;  
+    color: rgb(0, 0, 0);            
+    margin: 0;
+    padding: 20px;
+    background-image: url(bbtimg.png);
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);            
+}
+
+.container {
+    max-width: 800px;        
+    margin: 0 auto;      
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 10px;
+    text-align: center;     
+    background-color: rgba(245, 245, 245, 0.034);
+   
+}
+
+h2{
+    color: white;
+}
+
+.container > ul{
+    text-align: left;
+}
+.container > a{
+    text-decoration: none;
+}
+button {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);            
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: grey; 
+}
+
+
+.banners-container {
+    display: flex;             
+    flex-wrap: wrap;           
+    justify-content: space-between; 
+    margin-bottom: 20px;       
+}
+
+.banner {
+    width: 180px;              
+    height: 270px;             
+    background-color: #333;    
+    color: rgb(0, 0, 0);             
+    display: flex;             
+    align-items: center;      
+    justify-content: center;   
+    margin: 10px;             
+    flex-direction: column;    
+}
+
+.banner img {
+    width: 150px;              
+    height: auto;              
+}
+
+.banner h1 {
+    font-size: 16px;         
+    text-align: center;        
+}

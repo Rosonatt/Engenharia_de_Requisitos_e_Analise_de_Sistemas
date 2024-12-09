@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Procurar Livro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Procurar Livro</h1>
+        <form action="procurar_livro_action" method="GET">
+            <label for="criterio">Escolha o critério de busca:</label><br>
+            <select id="criterio" name="criterio">
+                <option value="titulo">Título</option>
+                <option value="autor">Autor</option>
+                <option value="genero">Gênero</option>
+            </select><br><br>
+            <label for="termo">Digite o termo de busca:</label><br>
+            <input type="text" id="termo" name="termo" required><br><br>
+            <button type="submit">Buscar Livro</button>
+        </form>
+    </div>
+</body>
+</html>
